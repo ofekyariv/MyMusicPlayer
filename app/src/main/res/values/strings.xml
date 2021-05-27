@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">MMPlayer</string>
+    <string name="music_player_header">Now Playing</string>
+    <string name="dialog_header">Add Song</string>
+    <string name="dialog_song_name">Song Name</string>
+    <string name="dialog_song_author">Song Author</string>
+    <string name="dialog_song_link">Song Link</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="dialog_add">Add</string>
+    <string name="dialog_name_error">Enter Name!</string>
+    <string name="dialog_author_error">Enter Author!</string>
+    <string name="dialog_link_error">Enter Link!</string>
+    <string name="song_delete_snackbar">Song Deleted</string>
+    <string name="song_delete_cancel">Undo</string>
+    <string name="delete_text_dialog">Are You Sure You Want To Delete This Song?</string>
+    <string name="delete_button_dialog">Delete</string>
+</resources>

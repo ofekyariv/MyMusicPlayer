@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MMPlayer</string>
+    <string name="music_player_header">מנגן עכשיו</string>
+    <string name="dialog_header">הוסף שיר</string>
+    <string name="dialog_song_name">שם השיר</string>
+    <string name="dialog_song_author">שם האמן</string>
+    <string name="dialog_song_link">קישור לשיר</string>
+    <string name="dialog_cancel">ביטול</string>
+    <string name="dialog_add">הוסף</string>
+    <string name="dialog_name_error">הכנס שם!</string>
+    <string name="dialog_author_error">הכנס אמן!</string>
+    <string name="dialog_link_error">הכנס קישור!</string>
+    <string name="song_delete_snackbar">השיר נמחק</string>
+    <string name="song_delete_cancel">בטל</string>
+    <string name="delete_text_dialog">האם הינך בטוח/ה כי ברצונך למחוק את השיר?</string>
+    <string name="delete_button_dialog">מחק</string>
+</resources>

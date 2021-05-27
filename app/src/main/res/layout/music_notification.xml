@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/appbar_gradient_reverse"
+    android:padding="3dp">
+
+    <RelativeLayout
+        android:id="@+id/app_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/close_notification"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/ic_baseline_cancel_24"
+            android:tint="@color/colorPrimary"
+            android:layout_centerVertical="true"/>
+
+
+        <ImageView
+            android:id="@+id/notif_icon"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:src="@drawable/logo"
+            android:layout_marginStart="10dp"
+            android:tint="@color/colorAccent"
+            android:layout_centerVertical="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_toEndOf="@id/notif_icon"
+            android:text="@string/app_name"
+            android:textColor="@color/colorAccent"
+            android:textSize="12sp"
+            android:layout_centerVertical="true"/>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/app_info">
+
+
+        <ImageView
+            android:id="@+id/cover_iv"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="13dp"
+            android:layout_marginEnd="10dp"
+            android:padding="3dp"
+            android:scaleType="centerCrop"
+            android:foreground="@drawable/round_outline"/>
+
+
+        <TextView
+            android:id="@+id/song_name_notif"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:layout_toEndOf="@id/cover_iv"
+            android:gravity="center"
+            android:textSize="15sp"
+            android:textColor="@color/colorPrimary"
+            android:ellipsize = "marquee"
+            android:singleLine = "true"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/song_name_notif"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@id/cover_iv"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/prev_notif"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:background="@android:color/transparent"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_notif_prev"
+                android:tint="@color/colorPrimary" />
+
+            <ImageButton
+                android:id="@+id/play_pause_notif"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:background="@android:color/transparent"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_notif_play"
+                android:tint="@color/colorPrimary" />
+
+            <ImageButton
+                android:id="@+id/next_notif"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:background="@android:color/transparent"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_notif_next"
+                android:tint="@color/colorPrimary" />
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
